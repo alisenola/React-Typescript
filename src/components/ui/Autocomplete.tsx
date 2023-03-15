@@ -46,7 +46,7 @@ const Autocomplete = ({ data }: Props) => {
 						</Row>
 					) : (
 						<>
-							{suggestions.map(({ name, flags }: Country, index) => (
+							{suggestions.map(({ name, flags }: Country, index: number) => (
 								<Row
 									key={index}
 									className={`${classes.itemList} ${index === activeSuggestion - 1 ? classes.activeItem : ""}`}
