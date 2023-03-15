@@ -1,0 +1,36 @@
+.autocomplete {
+  padding-top: 2rem;
+  display: flex;
+  flex-Direction: column;
+  justify-content: center;
+}
+
+.itemListNot {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.itemList {
+  padding-top: 0.5rem;
+}
+
+.itemList:hover {
+  cursor: pointer;
+  background-color: #697177;
+}
+
+.activeItem {
+  background-color: #697177;
+}
+
+.autocompleteContainer {
+  width: 60%;
+  margin: auto;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .autocompleteContainer {
+    width: 100%;
+  }
+}
